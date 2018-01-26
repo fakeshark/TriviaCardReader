@@ -40,6 +40,7 @@
             // 
             // btnBrowseFolder
             // 
+            this.btnBrowseFolder.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnBrowseFolder.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBrowseFolder.Location = new System.Drawing.Point(474, 17);
             this.btnBrowseFolder.Name = "btnBrowseFolder";
@@ -51,6 +52,8 @@
             // 
             // textBox1
             // 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Location = new System.Drawing.Point(10, 19);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(458, 20);
@@ -67,7 +70,8 @@
             // 
             // btnExportXml
             // 
-            this.btnExportXml.Enabled = false;
+            this.btnExportXml.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExportXml.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExportXml.Location = new System.Drawing.Point(12, 468);
             this.btnExportXml.Name = "btnExportXml";
@@ -75,9 +79,12 @@
             this.btnExportXml.TabIndex = 5;
             this.btnExportXml.Text = "Export text to file";
             this.btnExportXml.UseVisualStyleBackColor = true;
+            this.btnExportXml.Click += new System.EventHandler(this.btnExportXml_Click);
             // 
             // gbxBrowse
             // 
+            this.gbxBrowse.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.gbxBrowse.Controls.Add(this.lblInfo);
             this.gbxBrowse.Controls.Add(this.btnBrowseFolder);
             this.gbxBrowse.Controls.Add(this.textBox1);
@@ -99,6 +106,10 @@
             // 
             // rtbOutput
             // 
+            this.rtbOutput.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.rtbOutput.Font = new System.Drawing.Font("McLaren", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtbOutput.Location = new System.Drawing.Point(12, 138);
             this.rtbOutput.Name = "rtbOutput";
             this.rtbOutput.Size = new System.Drawing.Size(530, 324);

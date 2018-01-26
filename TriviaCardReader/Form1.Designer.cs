@@ -32,7 +32,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnExportXml = new System.Windows.Forms.Button();
-            this.btnExportJson = new System.Windows.Forms.Button();
             this.gbxBrowse = new System.Windows.Forms.GroupBox();
             this.lblInfo = new System.Windows.Forms.Label();
             this.rtbOutput = new System.Windows.Forms.RichTextBox();
@@ -70,23 +69,12 @@
             // 
             this.btnExportXml.Enabled = false;
             this.btnExportXml.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExportXml.Location = new System.Drawing.Point(279, 468);
+            this.btnExportXml.Location = new System.Drawing.Point(12, 468);
             this.btnExportXml.Name = "btnExportXml";
-            this.btnExportXml.Size = new System.Drawing.Size(263, 26);
+            this.btnExportXml.Size = new System.Drawing.Size(530, 26);
             this.btnExportXml.TabIndex = 5;
-            this.btnExportXml.Text = "Export text as XML";
+            this.btnExportXml.Text = "Export text to file";
             this.btnExportXml.UseVisualStyleBackColor = true;
-            // 
-            // btnExportJson
-            // 
-            this.btnExportJson.Enabled = false;
-            this.btnExportJson.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExportJson.Location = new System.Drawing.Point(12, 468);
-            this.btnExportJson.Name = "btnExportJson";
-            this.btnExportJson.Size = new System.Drawing.Size(263, 26);
-            this.btnExportJson.TabIndex = 6;
-            this.btnExportJson.Text = "Export text as JSON";
-            this.btnExportJson.UseVisualStyleBackColor = true;
             // 
             // gbxBrowse
             // 
@@ -124,7 +112,6 @@
             this.ClientSize = new System.Drawing.Size(556, 509);
             this.Controls.Add(this.rtbOutput);
             this.Controls.Add(this.gbxBrowse);
-            this.Controls.Add(this.btnExportJson);
             this.Controls.Add(this.btnExportXml);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -142,7 +129,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnExportXml;
-        private System.Windows.Forms.Button btnExportJson;
         private System.Windows.Forms.GroupBox gbxBrowse;
         private System.Windows.Forms.Label lblInfo;
         private System.Windows.Forms.RichTextBox rtbOutput;

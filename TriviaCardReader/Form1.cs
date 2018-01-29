@@ -15,7 +15,7 @@ namespace TriviaCardReader
     public partial class Form1 : Form
     {
         string[] files;
-        // add all relevant image formats for IronOCR
+        // add all relevant image formats for IronOCR to read
         string[] imageTypes = new string[] { "JPG", "JPEG", "BMP", "GIF", "PNG", "TIFF" };
         List<string> cardData = new List<string>();
 
